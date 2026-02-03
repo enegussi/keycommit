@@ -41,10 +41,9 @@ Engineering and product teams lose time and context because commit messages, PR 
 ---
 
 ## 5) How it works (high‑level)
-
 ```mermaid
 flowchart TD
-  A[Raw Input (diff/text/JSON)] --> B[canonicalise()]
+  A [Raw Input (diff/text/JSON)] --> B[canonicalise()]
   B --> C[sha256_hex()]
   C -->|key| D[AI Adapter]
   D --> E[Summary (schema-validated)]
