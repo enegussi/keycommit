@@ -1,0 +1,8 @@
+
+
+addopts = "-q"
+pythonpath = ["app"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
